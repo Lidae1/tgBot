@@ -1,0 +1,7 @@
+package entity
+
+type User struct {
+	ChatID   int64  `json:"chat_id"`
+	Username string `json:"username"`
+	Active   bool   `json:"active"`
+}
